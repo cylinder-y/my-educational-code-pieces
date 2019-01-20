@@ -13,6 +13,6 @@ public class MileToMeter extends ChainConverter {
 
     @Override
     protected double preConversion(final double value) {
-        return 1.609344d * 1000;
+        return value * 1.609344d * 1000;
     }
 }
