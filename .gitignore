@@ -6,6 +6,9 @@
 target/
 .DS_Store
 lib/
+.mvn/
+.gradle/
+*.class
 
 #Intellij
 .idea/
